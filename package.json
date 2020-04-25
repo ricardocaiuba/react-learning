@@ -1,0 +1,33 @@
+{
+  "name": "treinamento",
+  "version": "1.0.0",
+  "description": "Projeto React - do zaro até uma aplicação funcional",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server --open --mode=development",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ricardocaiuba/react-learning.git"
+  },
+  "author": "Ricardo Rodrigues dos Santos",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ricardocaiuba/react-learning/issues"
+  },
+  "homepage": "https://github.com/ricardocaiuba/react-learning#readme",
+  "dependencies": {
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.9.0",
+    "@babel/preset-env": "^7.5.5",
+    "@babel/preset-react": "^7.0.0",
+    "babel-loader": "^8.0.6",
+    "webpack": "^4.43.0",
+    "webpack-cli": "^3.3.11",
+    "webpack-dev-server": "^3.10.3"
+  }
+}
